@@ -16,4 +16,5 @@ def using_flatten(instruments)
   instruments.flatten 
 end 
 
+name = st
 def using_delete
