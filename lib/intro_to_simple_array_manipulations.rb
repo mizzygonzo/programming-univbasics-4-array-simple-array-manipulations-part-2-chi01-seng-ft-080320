@@ -16,5 +16,12 @@ def using_flatten(instruments)
   instruments.flatten 
 end 
 
-name = st
-def using_delete
+name = "Steven"
+def using_delete(instructors, name)
+  instructors.delete(name)
+end
+
+index = 2
+def using_delete_at(famous_robots, index)
+  famous_robots.delete_at(index)
+end
